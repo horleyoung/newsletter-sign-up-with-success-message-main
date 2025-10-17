@@ -4,6 +4,7 @@ const messageContainer = document.getElementById("message-container");
 const mainBox = document.querySelector(".main");
 const emailInput = document.getElementById("email");
 const errorMessage = document.querySelector(".error-message");
+const dismissButton = document.querySelector(".dismiss");
 
 messageContainer.classList.add('invisible');
 
@@ -28,5 +29,11 @@ submitBox.addEventListener("click", function(event) {
   // Finally, hide form and show success message
   mainBox.classList.add('invisible');
   messageContainer.classList.remove('invisible');
+
+  dismissButton.addEventListener("click", function() {
+    messageContainer.classList.add("invisible");
+    mainBox.classList.remove('invisible');
+  })
+
 });
 
