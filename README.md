@@ -42,9 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- vanilla js
 
 ### What I learned
 
@@ -68,7 +66,6 @@ I continued the Development of my vanilla javascript and other css properties
 
 - [Example resource 1](https://www.stackoverflow.com) - This helped me for when i got stuck. I checked other users who had the same problem as mine and learned how they solved it.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
