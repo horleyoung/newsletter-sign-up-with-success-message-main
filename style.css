@@ -124,19 +124,24 @@ input[type="submit"]:hover {
 }
 
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 760px) {
     body {
         background-color: hsl(234, 29%, 20%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
     }
     main {
         min-width: 600px;
         width: 50%;
-        height: 70vh;
+        min-height: 400px;
+        height: min(41vh, 70vh);
         background-color: white;
         flex-direction: row-reverse;
         gap: 12px;
         border-radius: 15px;
-        margin: 5rem auto;
         padding: 10px;
     }
     .image {
